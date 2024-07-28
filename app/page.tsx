@@ -10,7 +10,9 @@ export default function Home() {
         <h1 className="text-center py-10 font-bold text-[40px]">
           Customer Feedback
         </h1>
-        <MultiStepForm />
+        <div className=" px-4 ">
+          <MultiStepForm />
+        </div>
       </div>
     </div>
   );
